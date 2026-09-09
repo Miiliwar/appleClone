@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat",sans-serif;
+}
+
+header{
+    background: #000;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header div ul{
+    width: 980px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 17px 0;
+    list-style: none;
+}
+
+header div ul  img{
+    width: 16px;
+    height: 16px;
+    
+}
+
+header div ul li a {
+    text-decoration: none;
+    color: azure;
+    opacity: 0.8;
+
+}
+
+header div ul li a:hover{
+    opacity: 1;
+}
+
+
+/* end of header  css */
+
+/*  main body css */
+
+.highlight{
+   
+     width: 980px;
+     margin: 0 auto;
+     text-align: center;
+    
+
+}
+
+.highlight div ul{
+    width: 180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+.highlight .element{
+    margin-top: 10px;
+}
+
+.mar{
+    padding-top: 60px;
+}
+/* end of macbook pro  */
+
+/* iphone 11 pro */
+.bg-images{
+    height: 630px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+.mainwrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    margin-top: 40px;
+}
+
+.logo-tv{
+    margin-top: 200px;
+}
+
+.apple-text h1 {
+    font-size: 40px;
+    font-weight: 600;
+  
+}
+
+.apple-text h2,
+.apple-text h4 {
+    font-size: 28px;
+    font-weight: 400;
+}
+ 
+.apple-text p {
+    font-size: 18px;
+    color: #86868b;
+}
+
+.apple-text a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.apple-text a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.discription {
+    display: flex;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.iphone11-pro{
+    background-image: url("../images/home/iphone11-pro-bg.jpg");
+        color: white;
+}
+
+/* iphone 11 */
+.iphone11{
+ background-image: url("../images/home/iphone11-bg.jpg");
+
+ }
+
+
+/*  watch series */
+.watch {
+    background-image: url("../images/home/watch-series-5.jpg");
+}
+
+.apple-card {
+    height: auto;
+    background-image: url(../images/home/apple-card.jpg);
+
+}
+
+/*  tv and air pod pro */
+.tv{
+    background-image: url("../images/home/apple-tv-background.jpg");
+}
+
+
+
+.airpod-pro{
+    background-image: url("../images/home/air-pods.jpg");
+    color: white;
+}
+
+.ipad{
+    background-image: url(../images/home/new-ipad.jpg);
+}
+.watch,
+.apple-card,
+.tv,
+.airpod-pro,
+.macbook-pro,
+.ipad {
+    flex: 1;
+    min-width: 0;
+}
+.macbook-pro img {
+margin-top: 35px;
+}
+
+
+/* foter part  */
+.footer {
+    background: #f5f5f7;
+    color: #515154;
+    font-size: 12px;
+    padding: 100px 0;
+}
+
+.footer-inner {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.top-text {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column h4 {
+    color: #1d1d1f;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.space {
+    margin-top: 20px;
+}
+
+.column a {
+    text-decoration: none;
+    color: #515154;
+    margin-bottom: 10px;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+
+.shop {
+    margin: 25px 0 15px;
+}
+
+.shop a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.shop a:hover {
+    text-decoration: underline;
+}
+
+.footer-inner hr {
+    margin-top: 20px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}   
+
+
+.bottom-links a {
+    text-decoration: none;
+    color: #515154;
+    margin: 0 8px;
+}
+
+.bottom-links a:hover {
+    text-decoration: underline;
+}
