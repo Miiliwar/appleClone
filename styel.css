@@ -1,0 +1,110 @@
+
+  
+/* .Card-Logo {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  
+} */
+.Card-Logo {
+  background-image: url(image/home/apple-card.jpg);
+}
+.Discription {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
+/* SERVANT and Airpod section  */
+.Servant-Airpod {
+  background: #fff;
+}
+.kid-picture {
+  background-image: url("image/home/apple-tv-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.kid-picture {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  
+}
+
+.apple-tv {
+  font-size: 40px;
+  font-weight: bold;
+}
+.servant-logo {
+  padding: 180px 0 200px;
+}
+.watch-trailer a {
+  text-decoration: none;
+  font-size: 0.85em;
+}
+.watch-trailer ::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+.Airpod {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  
+}
+
+.AirPoda-pro {
+  font-size: 40px;
+  font-weight: bold;
+}
+.Airpod {
+  background-image: url(image/home/air-pods.jpg);
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+}
+
+/* MacBook Pro and ipad section  */
+.macbook-ipad {
+
+  background: #fff;
+}
+.macbook-pro {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  
+}
+.pro {
+  font-weight: 700;
+  font-size: 45px;
+}
+.macbook-pro {
+  background-image: url(image/home/macbook-pro.jpg);
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom;
+}
+.pen {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  
+}
+.pen {
+  background-image: url(image/home/new-ipad.jpg);
+}
