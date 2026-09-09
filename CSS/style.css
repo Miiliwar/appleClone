@@ -1,0 +1,19 @@
+
+
+/* iphone 11 */
+.iphone11 {
+    background-image: url("../images/home/iphone11-bg.jpg");
+
+}
+
+
+/*  watch series */
+.watch {
+    background-image: url("../images/home/watch-series-5.jpg");
+}
+
+.apple-card {
+    height: auto;
+    background-image: url(../images/home/apple-card.jpg);
+
+}
